@@ -1,76 +1,67 @@
+# 🟢 Lyoko: The All In One Bitcoin Platform
 
-# Lyoko — The Bitcoin Operating System
-
-**Lyoko** is an AI-first, full-featured Bitcoin-native platform that lets users buy, sell, hold, send, receive, track, and report on Bitcoin — powered by AI and secured for the future. Inspired by Coinbase, Swan Bitcoin, Strike, CoinLedger, and more.
-
----
-
-## 🌐 Key Features
-- Buy/Sell BTC (Instant or Recurring)
-- Dashboard with BTC/Fiat Balances
-- CSV/Excel Capital Gains Summaries (Short vs Long Term)
-- Live BTC Price Charts
-- Send/Receive BTC via Lightning or On-chain
-- Tax Reports (FIFO, LIFO, IRS-export ready)
-- Bitcoin news aggregation from top sources
-- AI Chatbot for 24/7 support with /wallets, /onchain, /dca, and more
+Lyoko is a Bitcoin-native financial platform that merges the power of AI, real-time Lightning Network transactions, on-chain analytics, and tax intelligence into a unified web experience. Inspired by the revolutionary aesthetics and themes of *The Matrix*, Lyoko empowers Bitcoiners to transcend fiat systems and engage with sound money on their terms.
 
 ---
 
-## 🔒 Security Architecture
-- All traffic encrypted (TLS/SSL, 256-bit)
-- PBKDF2 password hashing (HMAC-SHA256, 10k iterations, 128-bit salt)
-- SQL injection/XSS protection, rate limiting
-- 2FA login support
-- Secrets managed via Azure Key Vault
+## 🌐 Features
 
-Full architecture in [`/docs/Security Architecture and User Data Security Guidelines.md`](./docs/Security%20Architecture%20and%20User%20Data%20Security%20Guidelines.md)
-
----
-
-## 🧱 Tech Stack
-| Layer        | Tech                           |
-|--------------|--------------------------------|
-| Frontend     | React or Angular               |
-| Backend      | Python or Go                   |
-| Blockchain   | btcd, LND, Strike API          |
-| Database     | PostgreSQL                     |
-| Hosting/Security | Replit, Azure Key Vault, Cloudflare |
-
----
-
-## 📁 Repo Structure
-```bash
-/lyoko
-├── /frontend          # React or Angular app
-├── /backend           # Python or Go API
-├── /database          # PostgreSQL schema & migrations
-├── /docs              # Security & architecture specs
-├── /scripts           # Deployment scripts, CI/CD
-└── README.md
-```
+- 🔐 **User Authentication**
+  - PBKDF2 password encryption
+  - 2FA + backup recovery
+- ⚡ **Lightning Network Support**
+  - Send/Receive BTC with visual feedback & invoice QR codes
+- 💰 **Buy/Sell Bitcoin**
+  - Instant + recurring DCA buys
+  - Real-time pricing + tiered trading fees
+- 🧾 **Tax Reporting**
+  - CSV/XLSX parsing, gain classification (short/long), PDF export
+- 🧠 **AI Advisor Chatbot**
+  - Powered by OpenAI with custom `/commands` and sentiment logging
+- 📊 **Portfolio + Transaction Viewer**
+  - Dynamic charts, filters, export support
+- 📱 **Direct Deposit Support**
+  - Generate routing/account numbers for paycheck-to-Bitcoin auto conversion
+- 🛡️ **Admin Console**
+  - View health metrics, user volume, tax uploads, DB exports
+- 🔍 **Compliance Layer**
+  - KYC, audit logs, GDPR exports, terms & privacy enforcement
 
 ---
 
-## ⚡ How to Run
+## 🚀 Tech Stack
 
-```bash
-git clone https://github.com/your-username/lyoko.git
-cd lyoko
-# Spin up backend, frontend, and db
-```
-
----
-
-## 🧠 AI Prompt for Replit
-
-See [`/docs/ai-webapp-prompt.md`](./docs/ai-webapp-prompt.md)
+- **Frontend:** React + TailwindCSS (Matrix UI theming)
+- **Backend:** Node.js + Express + TypeScript
+- **Database:** PostgreSQL
+- **Security:** PBKDF2, TLS, WAF, session auth
+- **AI:** OpenAI GPT-4o API integration
+- **Infrastructure:** Replit + GitHub + Deployment Scripts
 
 ---
 
-## 🕶️ Vision
+## 📄 Key Documents
 
-Lyoko is not just a Bitcoin platform. It’s **the matrix rewritten in your favor**.
+- `UX_POLISH_PHASE.md`
+- `FINANCIAL_CORE_PHASE.md`
+- `INTEGRITY_PHASE.md`
+- `COMPLIANCE_PHASE.md`
+- `PRODUCTION_LAUNCH_PHASE.md`
+- `FINAL_PHASE.md`
+- `V_AND_V_PLAN.md` _(Coming Soon)_
 
-Built by the revolution.
-Last updated: 2025-04-12
+---
+
+## 🧠 Philosophy
+
+> *"Bitcoin is not just money—it's freedom from the system. Lyoko is the red pill."*
+
+---
+
+### 🕶️ Acknowledgment
+
+> *“The real world is built on inspiration. This is an acknowledgment for the inspiration* **The Matrix** *had on my life. Thank you to* **The Wachowskis**. *Hopefully Bitcoin can lead those trapped in this fiat system into a real world of Sound Money.”*
+
+---
+
+**Project Status:** In development – [Private Beta Access via Waitlist]
