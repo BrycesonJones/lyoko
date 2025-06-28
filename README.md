@@ -1,4 +1,4 @@
-# 🟢 Lyoko: The All In One Bitcoin Platform
+Lyoko
 
 Lyoko is a Bitcoin-native financial platform that merges the power of AI, real-time Lightning Network transactions, on-chain analytics, and tax intelligence into a unified web experience. Inspired by the revolutionary aesthetics and themes of *The Matrix*, Lyoko empowers Bitcoiners to transcend fiat systems and engage with sound money on their terms.
 
