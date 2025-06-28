@@ -1,4 +1,4 @@
-Lyoko
+# Lyoko
 
 Lyoko is a Bitcoin-native financial platform that merges the power of AI, real-time Lightning Network transactions, on-chain analytics, and tax intelligence into a unified web experience.
 
