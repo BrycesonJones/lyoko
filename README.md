@@ -1,35 +1,35 @@
 Lyoko
 
-Lyoko is a Bitcoin-native financial platform that merges the power of AI, real-time Lightning Network transactions, on-chain analytics, and tax intelligence into a unified web experience. Inspired by the revolutionary aesthetics and themes of *The Matrix*, Lyoko empowers Bitcoiners to transcend fiat systems and engage with sound money on their terms.
+Lyoko is a Bitcoin-native financial platform that merges the power of AI, real-time Lightning Network transactions, on-chain analytics, and tax intelligence into a unified web experience.
 
 ---
 
-## 🌐 Features
+## Features
 
-- 🔐 **User Authentication**
+- **User Authentication**
   - PBKDF2 password encryption
   - 2FA + backup recovery
-- ⚡ **Lightning Network Support**
+- **Lightning Network Support**
   - Send/Receive BTC with visual feedback & invoice QR codes
-- 💰 **Buy/Sell Bitcoin**
+- **Buy/Sell Bitcoin**
   - Instant + recurring DCA buys
   - Real-time pricing + tiered trading fees
-- 🧾 **Tax Reporting**
+- **Tax Reporting**
   - CSV/XLSX parsing, gain classification (short/long), PDF export
-- 🧠 **AI Advisor Chatbot**
+- **AI Advisor Chatbot**
   - Powered by OpenAI with custom `/commands` and sentiment logging
-- 📊 **Portfolio + Transaction Viewer**
+- **Portfolio + Transaction Viewer**
   - Dynamic charts, filters, export support
-- 📱 **Direct Deposit Support**
+- **Direct Deposit Support**
   - Generate routing/account numbers for paycheck-to-Bitcoin auto conversion
-- 🛡️ **Admin Console**
+- **Admin Console**
   - View health metrics, user volume, tax uploads, DB exports
-- 🔍 **Compliance Layer**
+- **Compliance Layer**
   - KYC, audit logs, GDPR exports, terms & privacy enforcement
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Frontend:** React + TailwindCSS (Matrix UI theming)
 - **Backend:** Node.js + Express + TypeScript
@@ -40,7 +40,7 @@ Lyoko is a Bitcoin-native financial platform that merges the power of AI, real-t
 
 ---
 
-## 📄 Key Documents
+## Key Documents
 
 - `UX_POLISH_PHASE.md`
 - `FINANCIAL_CORE_PHASE.md`
@@ -52,16 +52,11 @@ Lyoko is a Bitcoin-native financial platform that merges the power of AI, real-t
 
 ---
 
-## 🧠 Philosophy
-
-> *"Bitcoin is not just money—it's freedom from the system. Lyoko is the red pill."*
 
 ---
 
 ### 🕶️ Acknowledgment
 
-> *“The real world is built on inspiration. This is an acknowledgment for the inspiration* **The Matrix** *had on my life. Thank you to* **The Wachowskis**. *Hopefully Bitcoin can lead those trapped in this fiat system into a real world of Sound Money.”*
+> *“The real world is built on inspiration. This is an acknowledgment for the inspiration* **The Matrix** *had on my life. Thank you to* **The Wachowskis**.
 
 ---
-
-**Project Status:** In development – [Private Beta Access via Waitlist]
